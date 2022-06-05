@@ -32,8 +32,6 @@ header {
   height: 600px;
   width: 600px;
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(2, auto);
 }
 
 .grid-box {
@@ -51,6 +49,7 @@ header {
   transition: 250ms ease-in-out;
   padding: 10px;
   width: 150px;
+  font-size: 110%
 }
 
 .btn-control:hover {
